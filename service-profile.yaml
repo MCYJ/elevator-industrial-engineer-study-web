@@ -1,0 +1,14 @@
+service:
+  id: "kor-0100"
+  slug: "elevator-industrial-engineer-study-web"
+  appName: "승강기산업기사 필기·실기"
+  supportEmail: "june1012june@gmail.com"
+  locales: ["ko"]
+app:
+  androidPackage: "app.mcyj.examprep.kor0100"
+  iosBundleIdentifier: "app.mcyj.examprep.kor0100"
+web:
+  origin: "https://mcyj.github.io"
+  basePath: "/elevator-industrial-engineer-study-web/"
+operations:
+  deployment: "github-pages-static"
