@@ -3,3 +3,4 @@
 
 :root{--ink:#182d38;--primary:#376e96;--accent:#ffbc42}
 .store-row>.store-link img[src*="app-store"]{width:180px;height:60px}
+@media(max-width:650px){html[lang="ko"] .article-heading h1{font-size:clamp(1.2rem,6vw,2.6rem);word-break:keep-all;overflow-wrap:normal}}
